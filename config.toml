@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "https://hazentobar.com"
+# base_url = "https://hazentobar.com"
+base_url = "http://hazen.let-them.cyou"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -14,4 +15,3 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-foo = false

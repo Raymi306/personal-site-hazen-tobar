@@ -1,3 +1,4 @@
+{% extends "base.html" %}
 {% block meta %}
 <meta name="description" content="{{ section.description }}">
 <title>{{ section.title }}</title>
@@ -7,23 +8,23 @@
 {% block body %}
 {% include "include/header.html" %}
 
-{% for section_string in section.subsections -%}
-{% set s = get_section(path=section_string) %}
 <section>
-	<div class="project-image-collection">
-	{% for page in s.pages %}
+	<div class="project-image-collection-vertical">
+	{% for page in section.pages | reverse %}
 		{% for asset in page.assets -%}
 		{%- if asset is matching("[.](jpg|png)$") -%}
 		{% set image = resize_image(path=asset, width=800, height=400) %}
+		<h2 class="page-title">{{ page.title }}</h2>
 		<a href="{{ page.path }}">
 			<img src="{{ image.url }}" />
 		</a>
+		<div class="page-content">{{ page.content | safe }}</div>
 		{%- endif %}
 		{%- endfor %}
 	{%- endfor %}
 	</div>
-{{ s.content | safe }}
+{{ section.content | safe }}
 </section>
-{%- endfor %}
 {% endblock %}
+<hr>
 <footer>All photos &#169; Hazen Tobar</footer>

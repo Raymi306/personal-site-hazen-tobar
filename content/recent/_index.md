@@ -1,4 +1,5 @@
 +++
 title = "Recent projects"
-template = "gallery.html"
+template = "gallery-recent.html"
+sort_by = "weight"
 +++

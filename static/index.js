@@ -2,27 +2,27 @@ const delayMs = 7000;
 const transitionAnimation = "fade 0.7s";
 const slides = [
   {
-    src: "anything-goes-1.jpg",
+    src: "recent/anything_goes/1/anything-goes-1.jpg",
     label: "RECENT PROJECT / ANYTHING GOES",
     alt: "A photograph from Anything Goes", // give better alt descriptions
   },
   {
-    src: "the-encounter-1.jpg",
+    src: "recent/the_encounter/1/the-encounter-1.jpg",
     label: "RECENT PROJECT / THE ENCOUNTER",
     alt: "A photograph from The Encounter",
   },
   {
-    src: "matilda-1.jpg",
+    src: "recent/matilda/1/matilda-1.jpg",
     label: "RECENT PROJECT / MATILDA",
     alt: "A photograph from Matilda",
   },
   { 
-    src: "astro-1.jpg",
+    src: "recent/astro/1/astro-1.jpg",
     label: "RECENT PROJECT / ASTROPHOTOGRAPHY",
     alt: "A photograph of the Moon",
   },
   {
-    src: "sweeney.jpg",
+    src: "past/2022/2022.jpg",
     label: "PAST PROJECT / SWEENEY TODD",
     alt: "A photograph from Sweeney Todd",
   },

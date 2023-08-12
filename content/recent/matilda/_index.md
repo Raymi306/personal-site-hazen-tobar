@@ -1,8 +1,8 @@
 +++
-title = "Anything Goes 2023"
+title = "Matilda 2023"
 template = "dummy-section.html"
 page_template = "dummy-page.html"
-weight = 1
+weight = 2
 +++
-## Anything Goes
+## Matilda
 Rubber City Theatre 2023
