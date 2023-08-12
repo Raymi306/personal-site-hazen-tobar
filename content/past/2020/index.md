@@ -1,8 +1,9 @@
 +++
 title = "2020"
 +++
-Lorem ipsum
 
-[Sample Link 1](https://andrew.let-them.cyou)
+[Afterglow](https://www.avenueartscanton.com/)
 
-[Sample Link 2](https://google.com)
+[Love’s Labour’s Lost](https://www.rubbercitytheatre.com/)
+
+[The Whale](https://www.avenueartscanton.com/)

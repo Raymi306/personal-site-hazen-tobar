@@ -1,8 +1,15 @@
 +++
 title = "2016"
 +++
-Lorem ipsum
 
-[Sample Link 1](https://andrew.let-them.cyou)
+[Clybourne Park](http://weathervaneplayhouse.com)
 
-[Sample Link 2](https://google.com)
+[Monty Python's Spamalot](http://weathervaneplayhouse.com)
+
+[Roald Dahl's Willy Wonka](http://weathervaneplayhouse.com)
+
+[You Can't Take It With You](http://weathervaneplayhouse.com)
+
+[The Tempest](https://www.rubbercitytheatre.com/)
+
+[Joseph And The Amazing Technicolor Dreamcoat](http://weathervaneplayhouse.com)

@@ -1,30 +1,26 @@
 const delayMs = 7000;
-const transitionAnimation = "fade 0.7s";
+const transitionAnimation = "fade 1s";
 const slides = [
   {
-    src: "recent/anything_goes/1/anything-goes-1.jpg",
-    label: "RECENT PROJECT / ANYTHING GOES",
-    alt: "A photograph from Anything Goes", // give better alt descriptions
-  },
-  {
-    src: "recent/the_encounter/1/the-encounter-1.jpg",
-    label: "RECENT PROJECT / THE ENCOUNTER",
+    src: "recent/the_encounter/2/the-encounter-2.jpg",
+    label: "RECENT PROJECTS / THE ENCOUNTER: AKRON",
     alt: "A photograph from The Encounter",
   },
   {
+    src: "recent/anything_goes/1/anything-goes-1.jpg",
+    label: "RECENT PROJECTS / ANYTHING GOES",
+    alt: "A photograph from Anything Goes", // give better alt descriptions
+  },
+  
+  {
     src: "recent/matilda/1/matilda-1.jpg",
-    label: "RECENT PROJECT / MATILDA",
+    label: "RECENT PROJECTS / MATILDA",
     alt: "A photograph from Matilda",
   },
   { 
     src: "recent/astro/1/astro-1.jpg",
-    label: "RECENT PROJECT / ASTROPHOTOGRAPHY",
+    label: "RECENT PROJECTS / ASTROPHOTOGRAPHY",
     alt: "A photograph of the Moon",
-  },
-  {
-    src: "past/2022/2022.jpg",
-    label: "PAST PROJECT / SWEENEY TODD",
-    alt: "A photograph from Sweeney Todd",
   },
 ]
 
