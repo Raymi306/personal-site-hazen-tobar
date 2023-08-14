@@ -122,8 +122,8 @@ a {
 }
 
 .page-content-long {
-	background: white;
-	color: black;
+	background: black;
+	color: white;
 	width: 100vw;
 	text-align: center;
 }
@@ -131,11 +131,6 @@ a {
 .page-title {
 	background: white;
 	color: black;
-}
-
-.page-title {
-	background: black;
-	color: white;
 	width: 800px;
 	text-align: center;
 	padding-top: 20px;
@@ -262,19 +257,14 @@ a.social-logo {
 
 	.project-image-collection {
 		flex-direction: row;
-
 	}
 
 	.page-content-long {
-		background: white;
-		color: black;
 		width: 1000px;
 		text-align: center;
 	}
 
 	.page-title-long {
-		background: white;
-		color: black;
 		width: 1000px;
 		text-align: center;
 		margin-bottom: 0;

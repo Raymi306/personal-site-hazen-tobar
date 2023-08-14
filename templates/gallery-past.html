@@ -19,6 +19,7 @@
 			<a href="{{ page.path }}">
 				<img class="gallery-image" src="{{ image.url }}" />
 			</a>
+			<div class="page-content-long">{{ page.content | safe }}</div>
 			{%- endif %}
 		</div>
 		{%- endfor %}
