@@ -26,7 +26,16 @@ html, body {
 	text-transform:uppercase;
 }
 
-#background-image {
+.nodisplay {
+	display: none;
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.background-image {
 	pointer-events: none;
 	position: fixed;
 	z-index: -1;
@@ -34,11 +43,8 @@ html, body {
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
-}
-
-@keyframes fade {
-  from {opacity: 0}
-  to {opacity: 1}
+	animation-duration: 0.7s;
+	animation-name: fade;
 }
 
 header {
