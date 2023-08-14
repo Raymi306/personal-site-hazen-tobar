@@ -1,6 +1,5 @@
-const delayMs = 7000;
-const transitionAnimation = "fade 1s";
-const slides = [
+const DELAY_MS = 7000;
+const SLIDES = [
   {
     src: "recent/the_encounter/1/the-encounter-1.jpg",
     label: "RECENT PROJECTS / THE ENCOUNTER: AKRON",
@@ -23,37 +22,43 @@ const slides = [
     alt: "A photograph of the Moon",
   },
 ]
-
 let slideIndex = 0;
 let timeout = null;
 
-const slide = document.getElementById("background-image");
-slide.addEventListener("animationend", () => {
-  slide.style.animationPlayState = "paused";
-  slide.style.animation = "";
-});
-const label = document.getElementById("image-label");
+const SLIDE = document.getElementById("background-image");
+const LABEL = document.getElementById("image-label");
+const TRANSITION_EFFECT = new KeyframeEffect(
+  SLIDE,
+  [
+    { opacity: 0, },
+    { opacitY: 1, },
+  ],
+  700 //ms
+);
+const ANIMATION = new Animation(TRANSITION_EFFECT, document.timeline);
 
-showSlides(slideIndex);
+ANIMATION.play();
 
 function nextSlide(n) {
-  slide.style.animation = "paused";
   // have to compensate for the fact that showSlides
   // is incrementing by 1 each invocation
+  ANIMATION.cancel();
+  ANIMATION.play();
   if (n !== 1) { slideIndex -= 2; }
   clearTimeout(timeout);
   showSlides();
 }
 
 function showSlides() {
-  if (slideIndex >= slides.length) { slideIndex = 0 }
-  if (slideIndex < 0) { slideIndex = slides.length - 1 }
-  const nextSlide = slides[slideIndex];
-  slide.src = nextSlide.src;
-  slide.alt = nextSlide.alt;
-  label.innerText = nextSlide.label;
-  slide.style.animation = transitionAnimation;
-  slide.style.animationPlayState = "running";
+  if (slideIndex >= SLIDES.length) { slideIndex = 0 }
+  if (slideIndex < 0) { slideIndex = SLIDES.length - 1 }
+  const nextSlide = SLIDES[slideIndex];
+  SLIDE.src = nextSlide.src;
+  SLIDE.alt = nextSlide.alt;
+  LABEL.innerText = nextSlide.label;
   slideIndex++;
-  timeout = setTimeout(showSlides, delayMs);
-} 
+  ANIMATION.play();
+  timeout = setTimeout(showSlides, DELAY_MS);
+}
+
+showSlides(slideIndex);
