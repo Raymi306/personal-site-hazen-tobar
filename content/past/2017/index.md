@@ -1,5 +1,7 @@
 +++
 title = "2017"
+[extra]
+image_name = "2017.jpg"
 +++
 
 [Cymbeline](https://www.rubbercitytheatre.com/)

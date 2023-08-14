@@ -17,7 +17,7 @@
 			{% set image = resize_image(path=asset, width=1000, height=500) %}
 			<h2 class="page-title-long">{{ page.title }}</h2>
 			<a href="{{ page.path }}">
-				<img src="{{ image.url }}" />
+				<img class="gallery-image" src="{{ image.url }}" />
 			</a>
 			<div class="page-content-long">{{ page.content | safe }}</div>
 			{%- endif %}

@@ -1,5 +1,7 @@
 +++
 title = "2018"
+[extra]
+image_name = "2018.jpg"
 +++
 
 [Lady Day At Emerson's Bar And Grill](http://weathervaneplayhouse.com)

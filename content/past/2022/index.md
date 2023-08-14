@@ -1,5 +1,8 @@
 +++
 title = "2022"
+description = ""
+[extra]
+image_name = "2022.jpg"
 +++
 
 [Athena](https://www.rubbercitytheatre.com/)
