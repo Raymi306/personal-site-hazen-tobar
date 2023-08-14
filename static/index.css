@@ -145,6 +145,7 @@ a {
 
 .page-title-long {
 	background: white;
+	padding: 0.3rem 0;
 	color: black;
 	width: 100vw;
 	text-align: center;
