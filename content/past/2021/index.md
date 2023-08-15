@@ -1,5 +1,7 @@
 +++
 title = "2021"
+[extra]
+image_name = "2021.jpg"
 +++
 
 [On The Line](https://www.rubbercitytheatre.com/)

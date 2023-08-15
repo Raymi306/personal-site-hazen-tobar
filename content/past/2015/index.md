@@ -1,5 +1,7 @@
 +++
 title = "2015"
+[extra]
+image_name = "2015.jpg"
 +++
 
 [Oklahoma!](http://weathervaneplayhouse.com)

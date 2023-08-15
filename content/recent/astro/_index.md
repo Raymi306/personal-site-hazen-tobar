@@ -1,8 +1,8 @@
 +++
 title = "Astrophotography"
 template = "dummy-section.html"
-page_template = "dummy-page.html"
 sort_by = "weight"
+page_template = "image-page.html"
 weight = 3
 +++
 ## Astrophotography

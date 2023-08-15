@@ -1,5 +1,7 @@
 +++
 title = "2016"
+[extra]
+image_name = "2016.jpg"
 +++
 
 [Clybourne Park](http://weathervaneplayhouse.com)

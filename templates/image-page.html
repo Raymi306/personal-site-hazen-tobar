@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block meta %}
+<meta name="description" content="{{ page.description }}">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="/index.css">
+{% endblock %}
+
+{% block body %}
+{% include "include/header.html" %}
+
+<img class="gallery-image" src="{{page.extra.image_name}}">
+<h2 class="gallery-image-title">{{ page.title }}</h2>
+<div class="gallery-image-content">{{ page.content | safe }}</div>
+{% endblock %}
+<hr>
+<footer>All photos &#169; Hazen Tobar</footer>

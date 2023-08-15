@@ -1,5 +1,7 @@
 +++
 title = "2019"
+[extra]
+image_name = "2019.jpg"
 +++
 
 [Bent](https://www.avenueartscanton.com)

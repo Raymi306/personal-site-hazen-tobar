@@ -9,17 +9,19 @@
 {% include "include/header.html" %}
 <h3>Sound Design</h3>
 <section>
-	<div class="project-image-collection-vertical">
+	<div class="project-image-collection">
 	{% for page in section.pages | reverse %}
-		{% for asset in page.assets -%}
-		{%- if asset is matching("[.](jpg|png)$") -%}
-		{% set image = resize_image(path=asset, width=800, height=400) %}
-		<h2 class="page-title">{{ page.title }}</h2>
-		<a href="{{ page.path }}">
-			<img src="{{ image.url }}" />
-		</a>
-		<div class="page-content">{{ page.content | safe }}</div>
-		{%- endif %}
+		<div class="past-card">
+			{% for asset in page.assets -%}
+			{%- if asset is matching("[.](jpg|png)$") -%}
+			{% set image = resize_image(path=asset, width=1000, height=500) %}
+			<h2 class="page-title-long">{{ page.title }}</h2>
+			<a href="{{ page.path }}">
+				<img class="gallery-image" src="{{ image.url }}" />
+			</a>
+			<div class="page-content-long">{{ page.content | safe }}</div>
+			{%- endif %}
+		</div>
 		{%- endfor %}
 	{%- endfor %}
 	</div>

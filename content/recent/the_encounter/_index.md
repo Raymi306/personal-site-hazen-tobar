@@ -1,8 +1,8 @@
 +++
 title = "The Encounter 2023"
 template = "dummy-section.html"
-page_template = "dummy-page.html"
 sort_by = "weight"
+page_template = "image-page.html"
 weight = 0
 +++
 ## The Encounter: Akron

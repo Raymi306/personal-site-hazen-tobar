@@ -1,5 +1,7 @@
 +++
 title = "2020"
+[extra]
+image_name = "2020.jpg"
 +++
 
 [Afterglow](https://www.avenueartscanton.com/)
