@@ -2,7 +2,7 @@ const delayMs = 7000;
 const transitionAnimation = "fade 1s";
 const slides = [
   {
-    src: "recent/the_encounter/2/the-encounter-2.jpg",
+    src: "recent/the_encounter/1/the-encounter-1.jpg",
     label: "RECENT PROJECTS / THE ENCOUNTER: AKRON",
     alt: "A photograph from The Encounter",
   },

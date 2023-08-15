@@ -7,3 +7,4 @@ title = "2020"
 [Love’s Labour’s Lost](https://www.rubbercitytheatre.com/)
 
 [The Whale](https://www.avenueartscanton.com/)
+<hr>

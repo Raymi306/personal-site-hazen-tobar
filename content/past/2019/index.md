@@ -31,3 +31,4 @@ title = "2019"
 [A Christmas Carol](https://www.rubbercitytheatre.com/)
 
 [The Best Christmas Pageant Ever](https://www.avenueartscanton.com)
+<hr>
