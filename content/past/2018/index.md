@@ -29,4 +29,3 @@ image_name = "2018.jpg"
 [A Streetcar Named Desire](https://www.rubbercitytheatre.com/)
 
 [A Christmas Carol](https://www.rubbercitytheatre.com/)
-<hr>

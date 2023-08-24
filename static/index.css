@@ -61,13 +61,12 @@ h1 {
 	
 }
 
-h3 {text-align:center;
-	text-decoration:underline;
-	font-size:2em;
-	letter-spacing:2px;	
+#sound-design {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 2em;
+	letter-spacing: 2px;	
 }
-
-
 
 a {
 	text-decoration: inherit;

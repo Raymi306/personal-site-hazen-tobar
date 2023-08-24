@@ -7,7 +7,7 @@
 
 {% block body %}
 {% include "include/header.html" %}
-<h3>Sound Design</h3>
+<h3 id="sound-design">Sound Design</h3>
 <section>
 	<div class="project-image-collection">
 	{% for page in section.pages | reverse %}
@@ -27,6 +27,6 @@
 	</div>
 {{ section.content | safe }}
 </section>
-{% endblock %}
 <hr>
 <footer>All photos &#169; Hazen Tobar</footer>
+{% endblock %}

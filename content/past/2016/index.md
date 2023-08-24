@@ -15,4 +15,3 @@ image_name = "2016.jpg"
 [The Tempest](https://www.rubbercitytheatre.com/)
 
 [Joseph And The Amazing Technicolor Dreamcoat](http://weathervaneplayhouse.com)
-<hr>

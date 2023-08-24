@@ -11,4 +11,3 @@ image_name = "2021.jpg"
 [Heartbreakers In Hell](https://www.rubbercitytheatre.com/)
 
 [Love In Reserve](https://www.rubbercitytheatre.com/)
-<hr>

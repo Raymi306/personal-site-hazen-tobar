@@ -33,4 +33,3 @@ image_name = "2019.jpg"
 [A Christmas Carol](https://www.rubbercitytheatre.com/)
 
 [The Best Christmas Pageant Ever](https://www.avenueartscanton.com)
-<hr>

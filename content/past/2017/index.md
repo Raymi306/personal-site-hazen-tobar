@@ -1,5 +1,7 @@
 +++
 title = "2017"
+[extra]
+image_name = "2017.jpg"
 +++ 
 
 [Cymbeline](https://www.rubbercitytheatre.com/)
@@ -21,4 +23,3 @@ title = "2017"
 [Hamlet](https://www.rubbercitytheatre.com/)
 
 [Godspell](https://www.rubbercitytheatre.com/)
-<hr>

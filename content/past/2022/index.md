@@ -12,4 +12,3 @@ image_name = "2022.jpg"
 [Sweeney Todd: The Demon Barber of Fleet Street](https://www.rubbercitytheatre.com/)
 
 [The Agitators](https://www.rubbercitytheatre.com/)
-<hr>
