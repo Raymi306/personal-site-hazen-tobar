@@ -6,3 +6,4 @@
 ## How to Use
 `cd ~/projects/personal-site-hazen-tobar`
 - type `zola serve` to build locally
+- 'git pull' before working on code
