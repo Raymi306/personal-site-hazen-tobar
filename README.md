@@ -7,3 +7,5 @@
 `cd ~/projects/personal-site-hazen-tobar`
 - type `zola serve` to build locally
 - 'git pull' before working on code
+- 'git commit -am "My commit message"' to commit changes
+- 'git push' to push to github
