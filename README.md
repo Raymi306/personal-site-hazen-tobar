@@ -9,3 +9,12 @@
 - 'git pull' before working on code
 - 'git commit -am "My commit message"' to commit changes
 - 'git push' to push to github
+
+Homepage slide labels
+- /projects/personal-site-hazen-tobar/static/index.js
+
+Changing recent project photos (most recent project 01)
+	- 3 photos per project renamed 01, 02, 03, etc. placed in recent/01/01, recent/01/02, recent/01/03 etc respectively
+	- edit index.md in folder of new photo; change title to project title
+	-change project title in static/index.js
+	- 
