@@ -3,7 +3,7 @@ const DELAY_MS = 7000;
 // Could I make up an attribute on the images in the template instead?
 // Probably.
 const SLIDE_LABELS = [
-    "RECENT PROJECTS / THE ENCOUNTER: AKRON",
+    "RECENT PROJECTS / WHITE CHRISTMAS",
     "RECENT PROJECTS / ANYTHING GOES",
     "RECENT PROJECTS / MATILDA",
     "RECENT PROJECTS / ASTROPHOTOGRAPHY",
