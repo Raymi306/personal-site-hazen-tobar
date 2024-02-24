@@ -1,9 +1,8 @@
 +++
-title = "Anything Goes 2023"
+title = "Toledo Zoo II"
 template = "dummy-section.html"
 sort_by = "weight"
 page_template = "image-page.html"
-weight = 1
+weight = 2
 +++
-## Anything Goes
-Rubber City Theatre 2023
+## Toledo Zoo II

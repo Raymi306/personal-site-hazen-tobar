@@ -1,9 +1,9 @@
 +++
-title = "The Encounter 2023"
+title = "Molto Bella 2023"
 template = "dummy-section.html"
 sort_by = "weight"
 page_template = "image-page.html"
-weight = 0
+weight = 4
 +++
-## The Encounter: Akron
-NCC Akron 2023
+## Molto Bella 2023
+Stan Hywet Hall

@@ -3,8 +3,9 @@ title = "Astrophotography"
 template = "dummy-section.html"
 sort_by = "weight"
 page_template = "image-page.html"
-weight = 3
+weight = 5
 +++
 ## Astrophotography
-Canon 6D & Meade ETX125/Celestron NexStar 127SLT
+Cameras: Canon 6D, ZWO ASI224MC\
+Telescopes: Meade ETX125, Celestron NexStar 127SLT
 
