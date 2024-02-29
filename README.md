@@ -20,5 +20,4 @@ Changing recent project photos (most recent project 01)
 	- edit templates/index.html to show title of newest project
 
 Changes Needed
-	- First image on homepage shows 2nd most recent project instead of 1st
 	- Recent projects: text from previous project too close to next project pictures
