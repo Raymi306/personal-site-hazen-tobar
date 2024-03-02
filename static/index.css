@@ -73,7 +73,7 @@ a {
 	color: white;				
 }
 
-#image-label {
+.image-label {
 	font-family: "Futura PT Light", sans-serif;
 	font-size: 0.9rem;
 	letter-spacing: 3px;
@@ -82,7 +82,6 @@ a {
 	padding: 0.7rem 1.3rem;
 	background-color: white;
 	color: black;
-	
 }
 
 .white-bg {

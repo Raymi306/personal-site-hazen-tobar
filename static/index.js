@@ -1,16 +1,10 @@
 const DELAY_MS = 7000;
 
-// Could I make up an attribute on the images in the template instead?
-// Probably.
-const SLIDE_LABELS = [
-    "RECENT PROJECTS / THE ENCOUNTER: AKRON",
-    "RECENT PROJECTS / ANYTHING GOES",
-    "RECENT PROJECTS / MATILDA",
-    "RECENT PROJECTS / ASTROPHOTOGRAPHY",
-]
-const LABEL = document.getElementById("image-label");
+const LABELS = document.getElementsByClassName("image-label");
+const SLIDES = document.getElementsByClassName("slide");
 
-let currentSlide = document.getElementById("slide-1");
+let currentSlide = SLIDES[0]
+let currentLabel = LABELS[0]
 let slideIndex = 0;
 let timeout = null;
 
@@ -23,16 +17,21 @@ function nextSlide(n) {
 }
 
 function showSlides() {
-  if (slideIndex >= SLIDE_LABELS.length) { slideIndex = 0 }
-  if (slideIndex < 0) { slideIndex = SLIDE_LABELS.length - 1 }
-  const nextSlideLabel = SLIDE_LABELS[slideIndex];
-  const nextSlide = document.getElementById("slide-" + (slideIndex + 1));
+  if (slideIndex >= LABELS.length) { slideIndex = 0 }
+  if (slideIndex < 0) { slideIndex = LABELS.length - 1 }
 
-  currentSlide.className = "nodisplay";
+  const nextLabel = LABELS[slideIndex];
+  const nextSlide = SLIDES[slideIndex];
+
+  currentSlide.classList.toggle("nodisplay")
+  currentSlide.classList.toggle("background-image");
   currentSlide = nextSlide;
-  currentSlide.className = "background-image";
+  currentSlide.classList.toggle("nodisplay")
+  currentSlide.classList.toggle("background-image");
 
-  LABEL.innerText = nextSlideLabel;
+  currentLabel.classList.toggle("nodisplay");
+  nextLabel.classList.toggle("nodisplay");
+  currentLabel = nextLabel;
   slideIndex++;
   timeout = setTimeout(showSlides, DELAY_MS);
 }

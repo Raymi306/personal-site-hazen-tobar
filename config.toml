@@ -14,5 +14,15 @@ build_search_index = false
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
-foo = false
+slide_1_src = "/recent/the_encounter/1/the-encounter-1.jpg"
+slide_1_alt = "A photograph from a recent project"
+slide_1_lbl = "RECENT PROJECTS / THE ENCOUNTER: AKRON"
+slide_2_src = "/recent/anything_goes/1/anything-goes-1.jpg"
+slide_2_alt = "A photograph from a recent project"
+slide_2_lbl = "RECENT PROJECTS / ANYTHING GOES"
+slide_3_src = "/recent/matilda/1/matilda-1.jpg"
+slide_3_alt = "A photograph from a recent project"
+slide_3_lbl = "RECENT PROJECTS / MATILDA"
+slide_4_src = "/recent/astro/1/astro-1.jpg"
+slide_4_alt = "A photograph from a recent project"
+slide_4_lbl = "RECENT PROJECTS / ASTROPHOTOGRAPHY"
